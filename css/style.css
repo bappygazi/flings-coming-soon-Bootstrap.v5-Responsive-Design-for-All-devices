@@ -144,6 +144,10 @@ a:hover {
     font-family: Agrandir-Bold;
 }
 
+.bottom-social-media a {
+    color: #ff702a;
+}
+
 .footer-text p {
     font-size: 18px;
     color: #ff702a;
@@ -169,7 +173,7 @@ a:hover {
     top: 17%;
     right: -15%;
     z-index: 0;
-    animation: bounce 2.2s ease infinite;
+    animation: bounce 2.8s ease infinite;
 }
 
 .animation-content .packag img {
@@ -180,7 +184,7 @@ a:hover {
     right: -5%;
     top: -65px;
     z-index: 1;
-    animation: bounce 2.5s ease infinite;
+    animation: bounce 2.9s ease infinite;
 }
 
 @keyframes bounce {
@@ -463,26 +467,26 @@ a:hover {
         min-height: 100px;
     }
 
-    .strawberry-size {
-        width: 100px !important;
+    .animation-content .strawberry-size {
+        width: 100px;
     }
 
-    .strawberry-top {
-        top: -55%;
+    .animation-content .strawberry-top {
+        top: -50%;
         left: -25px;
     }
 
-    .strawberry-bottom {
-        top: 25% !important;
-        right: -30% !important;
+    .animation-content .strawberry-bottom {
+        top: 25%;
+        right: -20%;
     }
 
-    .packag img {
-        max-width: 100px !important;
+    .animation-content .packag img {
+        max-width: 100px;
     }
 
     .animation-content .packag {
-        right: -10%;
+        right: -5%;
         top: -35px;
         bottom: 0;
     }
