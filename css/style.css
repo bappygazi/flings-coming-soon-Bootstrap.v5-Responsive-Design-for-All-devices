@@ -50,7 +50,7 @@ a:hover {
 }
 
 .QRcode-vibe {
-    left: 0;
+    left: 100px;
     width: 100%;
     justify-content: center;
     bottom: -7%;
@@ -70,7 +70,6 @@ a:hover {
 
 .vibe a {
     color: #fff6e8;
-
 }
 
 .coming-soon-content {
@@ -165,7 +164,7 @@ a:hover {
 }
 
 .animation-content .strawberry-top {
-    top: -20%;
+    top: -13%;
     animation: bounce 2.3s ease infinite;
 }
 
@@ -500,7 +499,7 @@ a:hover {
     }
 
     .QRcode-vibe {
-        left: 0;
+        left: 80px;
         bottom: -15%;
         transform: translateX(-0);
     }
