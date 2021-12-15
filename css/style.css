@@ -99,12 +99,26 @@ a:hover {
 
 .email-phone-box .form-control {
     height: 65px;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 8px;
     color: #ff702a !important;
     background-color: #fff6e8;
     font-family: Agrandir-Bold;
 
+}
+
+.email-phone-box .number-form {
+    padding-left: 40px;
+}
+
+.email-phone-box .number-code {
+    top: 50%;
+    left: 12px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: Agrandir-Bold;
+    color: #ff702a !important;
+    transform: translateY(-50%);
 }
 
 .email-phone-box .form-control::placeholder {
@@ -135,11 +149,11 @@ a:hover {
 }
 
 .social-media a i {
-    font-size: 27px;
+    font-size: 22px;
 }
 
 .social-media a span {
-    font-size: 20px;
+    font-size: 18px;
     font-family: Agrandir-Bold;
 }
 
@@ -148,7 +162,7 @@ a:hover {
 }
 
 .footer-text p {
-    font-size: 18px;
+    font-size: 16px;
     color: #ff702a;
     font-family: Agrandir-Bold;
 }
@@ -237,11 +251,11 @@ a:hover {
     }
 
     .social-media a i {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .social-media a span {
-        font-size: 18px
+        font-size: 16px
     }
 
     .vibe-tap {
@@ -343,11 +357,11 @@ a:hover {
     }
 
     .social-media a i {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .social-media a span {
-        font-size: 18px
+        font-size: 16px
     }
 
     .vibe-tap {
@@ -385,8 +399,6 @@ a:hover {
         min-height: 70px;
     }
 
-
-
     .animation-content .strawberry-size {
         width: 80px;
     }
@@ -407,7 +419,7 @@ a:hover {
 
     .animation-content .packag {
         right: -65px;
-        top: -30px;
+        top: -15px;
     }
 }
 
@@ -450,12 +462,12 @@ a:hover {
         width: 190px;
     }
 
-    .social-media a span {
-        font-size: 20px;
+    .social-media a i {
+        font-size: 25px;
     }
 
-    .social-media a i {
-        font-size: 20px;
+    .social-media a span {
+        font-size: 16px
     }
 
     .footer-text p {
@@ -544,12 +556,12 @@ a:hover {
         font-size: 18px;
     }
 
-    .social-media a span {
-        font-size: 20px;
+    .social-media a i {
+        font-size: 25px;
     }
 
-    .social-media a i {
-        font-size: 20px;
+    .social-media a span {
+        font-size: 16px
     }
 
     .footer-text p {
@@ -623,14 +635,6 @@ a:hover {
 
     .QRcode-vibe {
         bottom: -10%;
-    }
-
-    .social-media a span {
-        font-size: 18px;
-    }
-
-    .footer-text p {
-        font-size: 16px;
     }
 }
 
