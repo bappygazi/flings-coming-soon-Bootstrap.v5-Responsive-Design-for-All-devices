@@ -49,6 +49,10 @@ a:hover {
     width: 799px;
 }
 
+.logo-insta {
+    z-index: 5;
+}
+
 .QRcode-vibe {
     left: 100px;
     width: 100%;
@@ -73,6 +77,7 @@ a:hover {
 }
 
 .coming-soon-content {
+    z-index: 5;
     color: #fff6e8;
 }
 
@@ -122,6 +127,14 @@ a:hover {
     font-family: Quick-Marker;
 }
 
+.email-phone-box .btn:hover {
+    background-color: #3180d1;
+}
+
+.submit-btn span {
+    font-size: 18px;
+    font-family: Agrandir-Bold;
+}
 
 .footer-text {
     left: 50%;
@@ -192,9 +205,6 @@ a:hover {
     }
 }
 
-
-
-
 /* Apply styles starting from medium devices and up to extra large devices */
 
 /*Medium devices (maobile  768px )*/
@@ -206,6 +216,10 @@ a:hover {
 
     .navbar-brand img {
         width: 113px;
+    }
+
+    .coming-soon-content {
+        background-color: #ff702a;
     }
 
     .coming-soon-content .coming-soon-text h3 {
@@ -286,11 +300,13 @@ a:hover {
     .animation-content .strawberry-top {
         left: -105%;
         top: 4%;
+        animation: bounce 2.8s ease infinite;
     }
 
     .animation-content .strawberry-bottom {
         top: 21%;
         right: 0%;
+        animation: bounce 3s ease infinite;
     }
 
     .animation-content .packag img {
@@ -300,6 +316,7 @@ a:hover {
     .animation-content .packag {
         right: 24px;
         top: -16px;
+        animation: bounce 3.2s ease infinite;
     }
 }
 
@@ -312,6 +329,10 @@ a:hover {
 
     .navbar-brand img {
         width: 113px;
+    }
+
+    .coming-soon-content {
+        background-color: #ff702a;
     }
 
     .coming-soon-content .coming-soon-text h3 {
@@ -392,11 +413,13 @@ a:hover {
     .animation-content .strawberry-top {
         left: -135%;
         top: 4%;
+        animation: bounce 2.8s ease infinite;
     }
 
     .animation-content .strawberry-bottom {
         top: 21%;
         right: 0%;
+        animation: bounce 3s ease infinite;
     }
 
     .animation-content .packag img {
@@ -406,6 +429,7 @@ a:hover {
     .animation-content .packag {
         right: -65px;
         top: -15px;
+        animation: bounce 3.2s ease infinite;
     }
 }
 

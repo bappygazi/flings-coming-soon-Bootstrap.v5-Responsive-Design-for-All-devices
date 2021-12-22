@@ -52,8 +52,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-5">
-                    <div class="coming-soon-content position-relative pb-5 pb-md-0">
+                <div class="col-md-6 col-lg-5 px-0 px-md-3">
+                    <div class="coming-soon-content position-relative mb-5 pb-md-0 px-3 px-md-0">
                         <div class="coming-soon-text">
                             <h3 class="mb-2 mb-lg-3">COMING<br>IN HOT</h3>
                             <h4 class="mb-2 mb-lg-3">LAUNCHING SPRING 2022</h4>
@@ -76,8 +76,11 @@
                                         id="mce-PHONE" placeholder="phone number">
 
                                 </div>
-                                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                                    class="btn">Submit</button>
+                                <div class="submit-btn d-flex align-items-center">
+                                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                                        class="btn submited">Submit</button>
+                                    <!-- <span class="ms-2"><i class="fa fa-check-circle me-2"></i> Sucesfully added! </span> -->
+                                </div>
                             </form>
 
                         </div>
@@ -91,7 +94,7 @@
                         <div class="social-media mt-4 pt-md-5  d-block d-md-none">
                             <a class="d-flex align-items-center" href="https://www.instagram.com/flingflings/">
                                 <i class="fa fa-instagram me-2"></i>
-                                <span class="pt-1">flingsflings</span>
+                                <span class="pt-1">flingflings</span>
                             </a>
                         </div>
                         <div class="vibe-tap d-block d-md-none position-absolute text-center">
@@ -111,7 +114,7 @@
             <div class="social-media bottom-social-media d-none d-md-block">
                 <a class="d-flex align-items-center justify-content-center"
                     href="https://www.instagram.com/flingflings/"><i class="fa fa-instagram me-2"></i><span
-                        class="pt-1">flingsflings</span></a>
+                        class="pt-1">flingflings</span></a>
             </div>
             <p class="mb-0">Flings®, a new brand by Retro Snacks Inc.</p>
         </div>
@@ -152,6 +155,13 @@
             ftypes[4] = 'phone';
         }(jQuery));
         var $mcj = jQuery.noConflict(true);
+    </script>
+    <script type='text/javascript'>
+        $(function () {
+            $(".submited").click(function () {
+                $(this).text("SUBMITED");
+            });
+        });
     </script>
 </body>
 
