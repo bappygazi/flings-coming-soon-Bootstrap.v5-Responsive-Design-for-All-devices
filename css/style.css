@@ -147,7 +147,7 @@ a:hover {
 }
 
 .social-media a span {
-    font-size: 1em;
+    font-size: .9em;
     font-family: Agrandir-Bold;
 }
 .social-media .press {
@@ -160,7 +160,7 @@ a:hover {
 }
 
 .footer-text p {
-    font-size: 1em;
+    font-size: .9em;
     color: #ff702a;
     font-family: Agrandir-Bold;
 }
