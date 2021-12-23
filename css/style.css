@@ -60,11 +60,6 @@ a:hover {
     bottom: -9%;
 }
 
-.QRcode-vibe .QRcode img {
-    border-radius: 5px;
-    border: 2px solid #fff;
-}
-
 .QRcode-vibe .vibe {
     font-size: 24px;
     line-height: 1;
@@ -261,7 +256,7 @@ a:hover {
     .vibe-tap {
         right: 0px;
         width: 90px;
-        bottom: 65px;
+        bottom: 25px;
         font-size: 14px;
         line-height: 1;
         font-family: Quick-Marker;
@@ -300,13 +295,13 @@ a:hover {
     .animation-content .strawberry-top {
         left: -105%;
         top: 4%;
-        animation: bounce 2.8s ease infinite;
+        animation: bounce 3.2s ease infinite;
     }
 
     .animation-content .strawberry-bottom {
         top: 21%;
         right: 0%;
-        animation: bounce 3s ease infinite;
+        animation: bounce 3.4s ease infinite;
     }
 
     .animation-content .packag img {
@@ -316,7 +311,7 @@ a:hover {
     .animation-content .packag {
         right: 24px;
         top: -16px;
-        animation: bounce 3.2s ease infinite;
+        animation: bounce 3.6s ease infinite;
     }
 }
 
@@ -374,7 +369,7 @@ a:hover {
     .vibe-tap {
         right: 0px;
         width: 90px;
-        bottom: 60px;
+        bottom: 25px;
         font-size: 16px;
         line-height: 1;
         font-family: Quick-Marker;
@@ -413,13 +408,13 @@ a:hover {
     .animation-content .strawberry-top {
         left: -135%;
         top: 4%;
-        animation: bounce 2.8s ease infinite;
+        animation: bounce 3.2s ease infinite;
     }
 
     .animation-content .strawberry-bottom {
         top: 21%;
         right: 0%;
-        animation: bounce 3s ease infinite;
+        animation: bounce 3.4s ease infinite;
     }
 
     .animation-content .packag img {
@@ -429,7 +424,7 @@ a:hover {
     .animation-content .packag {
         right: -65px;
         top: -15px;
-        animation: bounce 3.2s ease infinite;
+        animation: bounce 3.6s ease infinite;
     }
 }
 
