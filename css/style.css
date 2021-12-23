@@ -150,7 +150,11 @@ a:hover {
     font-size: 18px;
     font-family: Agrandir-Bold;
 }
-
+.social-media .press {
+    font-size: 12px;
+    color: #fff6e8;
+    font-family: Agrandir-Bold;
+}
 .bottom-social-media a {
     color: #ff702a;
 }
