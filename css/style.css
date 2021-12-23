@@ -310,7 +310,7 @@ a:hover {
 
     .animation-content .packag {
         right: 24px;
-        top: -16px;
+        top: -8px;
         animation: bounce 3.6s ease infinite;
     }
 }
@@ -423,7 +423,7 @@ a:hover {
 
     .animation-content .packag {
         right: -65px;
-        top: -15px;
+        top: --8px;
         animation: bounce 3.6s ease infinite;
     }
 }
