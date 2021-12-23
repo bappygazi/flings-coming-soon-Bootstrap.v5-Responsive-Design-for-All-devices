@@ -314,6 +314,7 @@ a:hover {
     }
 
     .animation-content .packag {
+        z-index: 8;
         right: 24px;
         top: -16px;
         animation: bounce 3.2s ease infinite;
@@ -427,6 +428,7 @@ a:hover {
     }
 
     .animation-content .packag {
+        z-index: 8;
         right: -65px;
         top: -15px;
         animation: bounce 3.2s ease infinite;
